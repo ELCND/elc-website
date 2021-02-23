@@ -1,2 +1,3 @@
 _site
 *.map
+.jekyll-cache
