@@ -73,7 +73,7 @@
   .page-header .page-title { grid-column:title-start/image-end; grid-row:lede; margin-bottom:2rem; text-align:center}
   .page-image.full { max-height:93vh; }
   .home .page-title { position:inherit; left:unset; bottom:unset; }
-  /*.page-title span::after { margin-left: -0.5em; margin-top: 0.2em; margin-bottom: 0.7em; width: 1.5em; height: 0.1em; min-height: 5px; }*/
+  /*.page-title span::after { margin-left: auto; margin-right: auto; margin-top: 0.2em; margin-bottom: 0.7em; width: 1.5em; height: 0.1em; min-height: 5px; }*/
 }
 
 /* 1280px
