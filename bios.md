@@ -167,7 +167,7 @@ nav: Council
 
 <h2>Chairs</h2>
 <div class="grid grid-md-4">
-  {% for i in (0..10) %}
+  {% for i in (0..7) %}
     <div class="person-hover" onclick="openDialog('ch', {{ i }})"><img class="image-circle" src="img/{{ site.data.Chair[i].netid }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ site.data.Chair[i].Name }} </h4>
       <i> {{ site.data.Chair[i].Position }} </i>
