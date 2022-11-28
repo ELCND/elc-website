@@ -58,8 +58,7 @@
   .page-header .page-title span {color:white; background:#0c2340; padding:1rem 3rem; opacity: 80%; display:inline-block; }
   .home .page-header { position:relative; }
   .home .page-title { position:absolute; left:5vw; bottom:3rem; }
-  .home .page-title::after { display:none; }
-  /*.page-title span::after { content: ''; display: block; width: 50px; height: 4px; margin: 0.2em 0 0.2em -0.2em; background-color: var(--brand-gold); }*/
+  .home .page-title::after {display: none}
   .site-title-group { margin-bottom:1px; }
 
 
@@ -70,10 +69,10 @@
 @media only screen and (min-width:60em) {
   .home .page-header.has-image::before { grid-row-end:header-end; margin-bottom:var(--padding-bottom); }
   .nav-top-true .page-header.has-image { --image-width:3fr; }
-  .page-header .page-title { grid-column:title-start/image-end; grid-row:lede; margin-bottom:2rem; }
+  .page-header .page-title { grid-column:title-start/image-end; margin-bottom:2rem; margin-top:12rem; text-align:center}
   .page-image.full { max-height:93vh; }
   .home .page-title { position:inherit; left:unset; bottom:unset; }
-  /*.page-title span::after { margin-left: -0.5em; margin-top: 0.2em; margin-bottom: 0.7em; width: 1.5em; height: 0.1em; min-height: 5px; }*/
+  /*.page-title span::after { margin-left: auto; margin-right: auto; margin-top: 0.2em; margin-bottom: 0.7em; width: 1.5em; height: 0.1em; min-height: 5px; }*/
 }
 
 /* 1280px

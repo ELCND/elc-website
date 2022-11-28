@@ -22,3 +22,5 @@ A collection of HTML templates that can be used as a starting point when using t
 ## Copyright
 
 This theme and associated files are copyrighted, provided, and maintained by [Marketing Communications: Web](https://marcomm.nd.edu/web/) and the [University of Notre Dame](https://www.nd.edu/).
+
+
