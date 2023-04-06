@@ -52,3 +52,8 @@ nav: Council
    {% endfor %}
 </div>
 
+<script>
+function openDialog(level, index) { 
+  document.getElementById(level + "dialog-" + index.toString()).showModal(); 
+} 
+</script>
