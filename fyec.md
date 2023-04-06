@@ -17,31 +17,38 @@ nav: Council
    the various fields within engineering and volunteer in the South Bend community. </p>
 <p><strong> Be on the lookout in your inbox for instructions on how to apply to be a part of FYEC!</strong></p>
 
-<h2>Members</h2>
-<div class="grid grid-md-2">
-  {% for i in (0..8) %}
-    <div><img src="img/{{ site.data.FYEC[i].netid }}.jpg" align="left" hspace="20" vspace="30" id="myImage" loading="lazy">
+<div class="grid grid-md-4">
+  {% for i in (0..7) %}
+    <div class="person-hover" onclick="openDialog('ex', {{ i }})"><img class="image-circle" src="img/{{ site.data.FYEC[i].netid }}.jpg" hspace="0" vspace="20" id="myImage" loading="lazy">
       <h4> {{ site.data.FYEC[i].Name }} </h4>
       <i> {{ site.data.FYEC[i].Position }} </i>
-      <p>{{ site.data.FYEC[i].netid }}@nd.edu</p>
-      <div><p>{{ site.data.FYEC[i].Bio }}</p></div>
+      <dialog class="dialog-person" id="exdialog-{{i}}">
+        <link rel="horizontal-xs" href="./stylesheets/site.css">
+        <form method="dialog" class="dialog-close">
+          <button title="Close">
+            x
+          </button>
+        </form>
+        <div class="dialog-frame">
+          <div class="dialog-image">
+            <img height = "1200" width="1200" src="img/{{ site.data.FYEC[i].netid }}.jpg" alt>
+          </div>
+          <div class="dialog-body">
+            <h4 class="dialog-title">
+              {{ site.data.FYEC[i].Name }}
+            </h4>
+            <p class="dialog-desc">
+              <em>{{ site.data.FYEC[i].Position }}</em>
+            </p>
+            <p class="dialog-content">
+              {{ site.data.FYEC[i].Email }}
+              <br>
+              {{ site.data.FYEC[i].Bio }}
+            </p>
+          </div>
+        </div>
+      </dialog>
     </div>
    {% endfor %}
 </div>
-<h4>FYEC Members Not Pictured</h4>
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Email</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for i in (0..19) %}
-      <tr>
-        <td>{{ site.data.FYEC2[i].Name}}</td>
-        <td>{{ site.data.FYEC2[i].Email}}</td>
-      </tr>
-    {% endfor %}
-  </tbody>
-</table>
+
