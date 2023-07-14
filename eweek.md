@@ -7,8 +7,6 @@ subpage2: EID
 subpage2url: eid.html
 subpage3: E-Week
 subpage3url: eweek.html
-subpage4: FYEC Newsletter
-subpage4url: fyec_newsletter.html
 url: eweek
 nav: Events
 ---
