@@ -25,7 +25,7 @@ nav: Resources
         <li>General Chemistry</li>
         <li>Engineering Design</li>
         <li>Moreau First Year Experience</li>
-        <li>(*Optional*) Core Course<li>
+        <li>**Optional** Core Course</li>
       </ol>
     </div>
     <div>
