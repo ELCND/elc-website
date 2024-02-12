@@ -18,7 +18,7 @@ nav: Council
 <p><strong> Be on the lookout in your inbox for instructions on how to apply to be a part of FYEC!</strong></p>
 
 <div class="grid grid-md-4">
-  {% for i in (0..6) %}
+  {% for i in (0..5) %}
     <div class="person-hover" onclick="openDialog('ex', {{ i }})"><img class="image-circle" src="img/{{ site.data.FYEC[i].netid }}.jpg" hspace="0" vspace="20" id="myImage" loading="lazy">
       <h4> {{ site.data.FYEC[i].Name }} </h4>
       <i> {{ site.data.FYEC[i].Position }} </i>
