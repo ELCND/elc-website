@@ -21,14 +21,14 @@ nav: Career
   </thead>
   <tbody>
       <tr>
-        <td>Dany Meier</td>
-        <td>Employer Engagement Manager </td>
-        <td>dmeier@nd.edu</td>
+        <td>Grace Deitsch</td>
+        <td>Employer Engagement Specialist for Engineering </td>
+        <td>gdeitsch@nd.edu</td>
       </tr>
       <tr>
-        <td>Jared Mrozinske</td>
-        <td>Engineering and Innovation Careers Program Manager </td>
-        <td>jmrozins@nd.edu</td>
+        <td>Velena Hernandez</td>
+        <td>College of Engineering Career Counselor, Assistant Director </td>
+        <td>vhernan3@nd.edu</td>
       </tr>
   </tbody>
 </table>

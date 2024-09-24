@@ -22,6 +22,7 @@ nav: Career
   industry professionals, and alumni to advance placement of Notre Dame students into
   top tier internships and full-time positions. Click <a href="https://undergradcareers.nd.edu/regional-info/">here</a> for further information.</p>
 <h2> Additional Links</h2>
-<p>Explore different career paths! <a href="https://undergradcareers.nd.edu/career-paths/stem/">Click Here!</a></p>
-<p>Tips on professional writing! <a href="https://undergradcareers.nd.edu/preparation/professional-documents/">Click Here!</a></p>
+<p>Explore different career paths <a href="https://undergradcareers.nd.edu/career-paths/stem/">Click Here!</a></p>
+<p>Further Education Advice <a href="https://undergradcareers.nd.edu/opportunities/graduate-school/">Click Here!</a></p>
+<p> Resumes & Preparation <a href="https://undergradcareers.nd.edu/preparation/">Click Here!</a></p>
 <p></p>
