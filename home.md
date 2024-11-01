@@ -6,8 +6,8 @@ numDay: 8
 event: Final Exam Conflict eForm Available
 day: Fri
 year: 2024
-timeStart:
-timeEnd: 
+timeStart: N/A
+timeEnd: N/A
 location: REMOTE: InsideND
 startDate: 2024-9-3T12:00-16:00
 endDate: 2024-9-3T12:00-16:00
@@ -28,8 +28,8 @@ numDay3: 17
 event3: Last Day to Apply for Undergraduate Research
 day3: Sun
 year3: 2024
-timeStart3: 
-timeEnd3: 
+timeStart3: N/A
+timeEnd3: N/A
 location3: REMOTE: See Email
 startDate3: 2024-9-3T19:00-20:00
 endDate3: 2024-9-3T19:00-20:00
