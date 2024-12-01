@@ -3,7 +3,7 @@ layout: home
 
 month: Dec
 numDay: 3
-event: Career Confidence: Making the Most of Campus Resources
+event: Career Confidence Making the Most of Campus Resources
 day: Tues
 year: 2024
 timeStart: "12:00 PM"
