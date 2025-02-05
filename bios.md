@@ -179,7 +179,7 @@ nav: Council
         </form>
         <div class="dialog-frame">
           <div class="dialog-image">
-            <img height = "1200" width="1200" src="img/{{ site.data.Chair[i].netid }}.jpg" alt>
+            <img height="1200" width="1200" src="img/{{ site.data.Chair[i].netid }}.jpg" alt>
           </div>
           <div class="dialog-body">
             <h4 class="dialog-title">
