@@ -10,23 +10,17 @@ subpage3url: fyec.html
 nav: Council
 ---
   <!-- Page Content -->
-<h2>Executives</h2>
-<!-- <div class="flex-container">
-  <div class="flex-child">
-    <img src="ray.jpg" align="left" hspace="20" vspace="30" id="myImage">
-    <h4>Ray Kman</h4>
-    <i>President</i>
-    <p>Devon is a senior studying Chemical Engineering with a minor in Engineering Corporate Practice from Charlotte, North Carolina. He resides in Baumer Hall, where he serves as a RA. Entering his third year with ELC, he is excited to help oversee the group's web presence and has helped relaunch the ELC website. Outside of ELC, Devon sings with the Glee Club and can often be spotted at Duncan Student Center or zooming across campus on his scooter. </p>
-  </div>
-  <div class="flex-child">
-    <img src="ray.jpg" align="left" hspace="20" vspace="30" id="myImage">
-    <h4>Ray Kman</h4>
-    <i>President</i>
-    <p>Devon is a senior studying Chemical Engineering with a minor in Engineering Corporate Practice from Charlotte, North Carolina. He resides in Baumer Hall, where he serves as a RA. Entering his third year with ELC, he is excited to help oversee the group's web presence and has helped relaunch the ELC website. Outside of ELC, Devon sings with the Glee Club and can often be spotted at Duncan Student Center or zooming across campus on his scooter. </p>
-  </div>
-</div>
+  
+<style>
+.image-circle {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+</style>
 
--->
+
 <div class="grid grid-md-4">
   {% for i in (0..3) %}
     <div class="person-hover" onclick="openDialog('ex', {{ i }})"><img class="image-circle" src="img/{{ site.data.Executive[i].netid }}.jpg" hspace="0" vspace="20" id="myImage" loading="lazy">
