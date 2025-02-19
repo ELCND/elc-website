@@ -1,36 +1,36 @@
 ---
 layout: home
 
-month: Dec
-numDay: 3
-event: Career Confidence Making the Most of Campus Resources
+month: Feb
+numDay: 18
+event: ESTEEM Graduate Program Information Session
 day: Tues
 year: 2024
-timeStart: "12:00 PM"
-timeEnd: "1:00 PM"
-location: "512 Duncan Student Center"
+timeStart: "5:00 PM"
+timeEnd: "6:00 PM"
+location: "217 Cushing Hall"
 startDate: "2024-12-03T12:00:00"
 endDate: "2024-12-03T13:00:00"
 
-month2: Dec
-numDay2: 6
-event2: Nuggets and Networking
+month2: Feb
+numDay2: 22
+event2: End of E-Week
 day2: Fri
 year2: 2024
-timeStart2: "4:00 PM"
-timeEnd2: "5:00 PM"
-location2: "512 Duncan Student Center"
+timeStart2: "-"
+timeEnd2: "-"
+location2: "-"
 startDate2: "2024-12-06T16:00:00"
 endDate2: "2024-12-06T17:00:00"
 
-month3: Dec
-numDay3: 6
-event3: Final Exam Conflict Eform Due
-day3: Fri
+month3: Feb
+numDay3: 25
+event3: UG Research Discussion
+day3: Tues
 year3: 2024
-timeStart3: "submit by" 
-timeEnd3: "5:00 pm"
-location3: "REMOTE: See Email"
+timeStart3: "4:00pm" 
+timeEnd3: "4:45 pm"
+location3: "109 Stinson Remick"
 startDate3: "2024-12-06T00:00:00"
 endDate3: "2024-12-06T00:00:00"
 ---
