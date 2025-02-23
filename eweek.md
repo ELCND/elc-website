@@ -19,10 +19,10 @@ nav: Events
 <p> If your company is interested in sponsoring the Engineering Leadership Council in the future , please reach out to elc@nd.edu. </p>
 
 <h2> Image Gallery from 2025 </h2>
-<div><img src="img/eweekpix1.jpg" loading="lazy"></div>
+<div><img src="img/eweekpix1.jpg" height="300px" width="300px"loading="lazy"></div>
 <br />
-<div><img src="img/eweekpix2.jpg" loading="lazy"></div>
+<div><img src="img/eweekpix2.jpg" height="300px" width="300px"loading="lazy"></div>
 <br />
-<div><img src="img/eweekpix3.jpg" loading="lazy"></div>
+<div><img src="img/eweekpix3.jpg" height="300px" width="300px"loading="lazy"></div>
 <br />
-<div><img src="img/eweekpix4.jpg" loading="lazy"></div>
+<div><img src="img/eweekpix4.jpg" height="300px" width="300px"loading="lazy"></div>
