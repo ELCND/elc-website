@@ -20,9 +20,7 @@ nav: Events
 
 <h2> Image Gallery from 2025 </h2>
 <div><img src="img/eweekpix1.jpg" height="300px" width="300px"loading="lazy"></div>
-<br />
 <div><img src="img/eweekpix2.jpg" height="300px" width="300px"loading="lazy"></div>
 <br />
 <div><img src="img/eweekpix3.jpg" height="300px" width="300px"loading="lazy"></div>
-<br />
 <div><img src="img/eweekpix4.jpg" height="300px" width="300px"loading="lazy"></div>
