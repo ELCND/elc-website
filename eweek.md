@@ -17,3 +17,12 @@ nav: Events
 <div><img src="img/1.jpg" loading="lazy"></div>
 
 <p> If your company is interested in sponsoring the Engineering Leadership Council in the future , please reach out to elc@nd.edu. </p>
+
+<h2> Image Gallery from 2025 </h2>
+<div><img src="img/eweek1.jpg" loading="lazy"></div>
+<br />
+<div><img src="img/eweek2.jpg" loading="lazy"></div>
+<br />
+<div><img src="img/eweek3.jpg" loading="lazy"></div>
+<br />
+<div><img src="img/eweek4.jpg" loading="lazy"></div>
