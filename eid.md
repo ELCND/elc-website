@@ -13,7 +13,7 @@ url: eid
 nav: Events
 ---
 <!-- Page Content -->
-  <div><img src="img/ein25.jpg" loading="lazy"></div>
+  <div><img src="img/ein2025.jpg" loading="lazy"></div>
   <p></p>
 <p>Engineering Industry Day is an informal networking event held in addition to the Fall Career Fair that invites all engineering students across campus to meet with a variety of employers promoting full-time employment, internships, and other career opportunities. At this year’s event, students will have the opportunity to interact with employers through both casual conversations and larger Q&A sessions. Details on the in-person Career Fair events can be found on <a href="https://app.joinhandshake.com/stu/career_fairs/33315?ref=school-show-upcoming-career-fairs">Handshake</a>, and the full list of employers attending EID can be found <a href="https://docs.google.com/spreadsheets/d/1geedYt4d1zvP_iJPAo2kBr1gv2X86Yjp1HHk5me0MvI/edit#gid=0">here</a>. Please note that there are several employers that will be attending EID and not the career fair this year.
 </p>
