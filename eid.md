@@ -13,13 +13,13 @@ url: eid
 nav: Events
 ---
 <!-- Page Content -->
-  <div><img src="img/eid24.jpg" loading="lazy"></div>
+  <div><img src="img/ein25.jpg" loading="lazy"></div>
   <p></p>
 <p>Engineering Industry Day is an informal networking event held in addition to the Fall Career Fair that invites all engineering students across campus to meet with a variety of employers promoting full-time employment, internships, and other career opportunities. At this year’s event, students will have the opportunity to interact with employers through both casual conversations and larger Q&A sessions. Details on the in-person Career Fair events can be found on <a href="https://app.joinhandshake.com/stu/career_fairs/33315?ref=school-show-upcoming-career-fairs">Handshake</a>, and the full list of employers attending EID can be found <a href="https://docs.google.com/spreadsheets/d/1geedYt4d1zvP_iJPAo2kBr1gv2X86Yjp1HHk5me0MvI/edit#gid=0">here</a>. Please note that there are several employers that will be attending EID and not the career fair this year.
 </p>
 
 <h3> EID Networking Event</h3>
-<p><em><b>Monday, September 16th 6:00-8:00 PM EST</b></em></p>
+<p><em><b>Monday, September 15th 4:00-6:30 PM EST</b></em></p>
 <ul>
   <li>Students may attend the event for as much time as they would like during the two hour event</li>
   <li>Students may arrive at any point during the event window and there is no pre registration required</li>
@@ -32,11 +32,11 @@ nav: Events
 
 
 <h3>Engineering Leaders Breakfast (engineers only, invite required)</h3>
-<p><em><b>Wednesday, September 18th 8:30 - 10:00 AM EST</b></em></p>
+<p><em><b>Tuesday, September 16th 8:00 - 10:00 AM EST</b></em></p>
 <p> Business casual attire is appropriate. </p>
 
 <h3>Multi-College Career Fair (all university)</h3>
-<p><em><b>Tuesday, September 17th 5:00 - 7:30 PM EST</b></em></p>
+<p><em><b>Tuesday, September 16th 5:00 - 7:30 PM EST</b></em></p>
 
 
 
