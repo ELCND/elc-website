@@ -21,9 +21,9 @@ nav: Career
   </thead>
   <tbody>
       <tr>
-        <td>Grace Deitsch</td>
+        <td>KJ Freeman</td>
         <td>Employer Engagement Specialist for Engineering </td>
-        <td>gdeitsch@nd.edu</td>
+        <td>kfreema6@nd.edu</td>
       </tr>
       <tr>
         <td>Velena Hernandez</td>
