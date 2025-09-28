@@ -122,6 +122,7 @@ nav: Council
           </div>
         </div>
       </dialog>
+    </div>
    {% endfor %}
 </div>
 
