@@ -58,7 +58,7 @@ nav: Council
 
 <h2>Senior Directors</h2>
 <div class="grid grid-md-4">
-  {% for i in (0..9) %}
+  {% for i in (0..4) %}
     <div class="person-hover" onclick="openDialog('sd', {{ i }})"><img class="image-circle" src="img/{{ site.data.Director[i].netid }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ site.data.Director[i].Name }} </h4>
       <i> {{ site.data.Director[i].Position }} </i>
@@ -87,29 +87,13 @@ nav: Council
           </div>
         </div>
       </dialog>
-      <!--<p> {{ site.data.Director[i].Email }} </p>
-      <!--<div> {{ site.data.Director[i].Bio }} </div>
-  <!--    <div>
-        <span onclick="openNav()"><a class="btn btn-md">View Bio</a></span>
-        <div class="popup" id="popup1">
-          <!-- The overlay ->
-        <div id="myNav" class="overlay">
-         <!-- Button to close the overlay navigation ->
-         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-         <!-- Overlay content ->
-         <div class="overlay-content">
-           <p>{{ site.data.Director[i].Bio }}</p>
-         </div>
-        </div>
-        </div>
-      </div> -->
     </div>
    {% endfor %}
 </div>
 
 <h2>Junior Directors</h2>
 <div class="grid grid-md-4">
-  {% for i in (0..8) %}
+  {% for i in (0..3) %}
     <div class="person-hover" onclick="openDialog('jd', {{ i }})"><img class="image-circle" src="img/{{ site.data.jrDirector[i].netid }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ site.data.jrDirector[i].Name }} </h4>
       <i> {{ site.data.jrDirector[i].Position }} </i>
@@ -138,30 +122,12 @@ nav: Council
           </div>
         </div>
       </dialog>
-      <!--<p> {{ site.data.jrDirector[i].Email }} </p>
-      <!--<div> {{ site.data.jrDirector[i].Bio }} </div>
-  <!--    <div>
-        <span onclick="openNav()"><a class="btn btn-md">View Bio</a></span>
-        <div class="popup" id="popup1">
-          <!-- The overlay ->
-        <div id="myNav" class="overlay">
-         <!-- Button to close the overlay navigation ->
-         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-         <!-- Overlay content ->
-         <div class="overlay-content">
-           <p>{{ site.data.Director[i].Bio }}</p>
-         </div>
-        </div>
-        </div>
-      </div> -->
-
-    </div>
    {% endfor %}
 </div>
 
 <h2>Chairs</h2>
 <div class="grid grid-md-4">
-  {% for i in (0..10) %}
+  {% for i in (0..4) %}
     <div class="person-hover" onclick="openDialog('ch', {{ i }})"><img class="image-circle" src="img/{{ site.data.Chair[i].netid }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ site.data.Chair[i].Name }} </h4>
       <i> {{ site.data.Chair[i].Position }} </i>
@@ -190,22 +156,6 @@ nav: Council
           </div>
         </div>
       </dialog>
-      <!--<p> {{ site.data.Chair[i].Email }} </p>
-      <!--<div> {{ site.data.Chair[i].Bio }} </div>
-  <!--    <div>
-        <span onclick="openNav()"><a class="btn btn-md">View Bio</a></span>
-        <div class="popup" id="popup1">
-          <!-- The overlay ->
-        <div id="myNav" class="overlay">
-         <!-- Button to close the overlay navigation ->
-         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-         <!-- Overlay content ->
-         <div class="overlay-content">
-           <p>{{ site.data.Director[i].Bio }}</p>
-         </div>
-        </div>
-        </div>
-      </div> -->
     </div>
    {% endfor %}
 </div>
