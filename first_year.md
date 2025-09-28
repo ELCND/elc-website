@@ -5,12 +5,10 @@ subpage1: First Year
 subpage1url: first_year
 subpage2: Engineering Societies
 subpage2url: clubs
-subpage3: FYEC Newsletter
-subpage3url: fyec_newsletter
 nav: Resources
 ---
   <!-- Page Content -->
-  <p class="lede">While Notre Dame does not allow first years to declare their major until the spring semester,
+  <p class="lede">While Notre Dame does not allow first years to officially declare their major until the spring semester,
     there are plenty of opportunities to explore the different engineering departments.</p>
   <h2> What to Expect During Your First Year </h2>
   <p> Students who enroll with the intention to major in Engineering are placed
@@ -39,3 +37,4 @@ nav: Resources
     </div>
   </div>
 <p> To explore the different engineering departments further, click <a href="https://engineering.nd.edu/departments-programs/undergraduate-programs/">here</a></p>
+<p>In your first-year engineering courses, you will have the opportunity to hear from all of the specific departments. Part of the course is focused on major discernment.</p>
