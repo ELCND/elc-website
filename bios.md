@@ -58,7 +58,7 @@ nav: Council
 
 <h2>Senior Directors</h2>
 <div class="grid grid-md-4">
-  {% for i in (0..5) %}
+  {% for i in (0..6) %}
     <div class="person-hover" onclick="openDialog('sd', {{ i }})"><img class="image-circle" src="img/{{ site.data.Director[i].netid }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ site.data.Director[i].Name }} </h4>
       <i> {{ site.data.Director[i].Position }} </i>
