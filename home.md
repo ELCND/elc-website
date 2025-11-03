@@ -4,7 +4,7 @@ layout: home
 month: Nov
 numDay: 4
 event: IEEE General Meeting
-day: Tues
+day: Tue
 year: 2025
 timeStart: "7:00 PM"
 timeEnd: "8:00 PM"
