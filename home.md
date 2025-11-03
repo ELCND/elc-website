@@ -30,7 +30,7 @@ day3: Fri
 year3: 2025
 timeStart3: "3:00 PM" 
 timeEnd3: "4:00 PM"
-location3: "253 SNieuwland Hall of Science"
+location3: "253 Nieuwland Hall of Science"
 startDate3: "2024-12-06T00:00:00"
 endDate3: "2024-12-06T00:00:00"
 ---
