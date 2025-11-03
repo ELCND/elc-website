@@ -3,7 +3,7 @@ layout: home
 
 month: Nov
 numDay: 4
-event: IEEE General Meeting
+event: "IEEE General Meeting"
 day: Tue
 year: 2025
 timeStart: "7:00 PM"
@@ -14,7 +14,7 @@ endDate: "2024-12-03T13:00:00"
 
 month2: Nov
 numDay2: 5
-event2: The Golden Gateway Series: The Open AI Playbook
+event2: "The Golden Gateway Series: The Open AI Playbook"
 day2: Wed
 year2: 2025
 timeStart2: "4:00 PM"
@@ -25,7 +25,7 @@ endDate2: "2024-12-06T17:00:00"
 
 month3: Nov
 numDay3: 7
-event3: Starlab: Next Generation Materials Research & Manufacturing in Space
+event3: "Starlab: Next Generation Materials Research & Manufacturing in Space"
 day3: Fri
 year3: 2025
 timeStart3: "3:00 PM" 
