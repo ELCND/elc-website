@@ -161,6 +161,41 @@ nav: Council
    {% endfor %}
 </div>
 
+<h2>First Year Engineering Council</h2>
+<div class="grid grid-md-4">
+  {% for i in (0..5) %}
+    <div class="person-hover" onclick="openDialog('ch', {{ i }})"><img class="image-circle" src="img/{{ site.data.FYEC[i].netid }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
+      <h4> {{ site.data.Chair[i].Name }} </h4>
+      <i> {{ site.data.Chair[i].Position }} </i>
+      <dialog class="dialog-person" id="chdialog-{{i}}">
+        <form method="dialog" class="dialog-close">
+          <button title="Close">
+            x
+          </button>
+        </form>
+        <div class="dialog-frame">
+          <div class="dialog-image">
+            <img height="1200" width="1200" src="img/{{ site.data.Chair[i].netid }}.jpg" alt>
+          </div>
+          <div class="dialog-body">
+            <h4 class="dialog-title">
+              {{ site.data.FYEC[i].Name }}
+            </h4>
+            <p class="dialog-desc">
+              <em>{{ site.data.FYEC[i].Position }}</em>
+            </p>
+            <p class="dialog-content">
+              {{ site.data.FYEC[i].Email }}
+              <br>
+              {{ site.data.FYEC[i].Bio }}
+            </p>
+          </div>
+        </div>
+      </dialog>
+    </div>
+   {% endfor %}
+</div>
+
 <script>
 function openDialog(level, index) { 
   document.getElementById(level + "dialog-" + index.toString()).showModal(); 
