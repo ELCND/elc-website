@@ -164,10 +164,13 @@ nav: Council
 <h2>First Year Engineering Council</h2>
 <div class="grid grid-md-4">
   {% for i in (0..1) %}
-    <div class="person-hover" onclick="openDialog('fy', {{ i }})"><img class="image-circle" src="img/{{ site.data.FYEC[i].netid }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
+    <div class="person-hover" onclick="openDialog('fy', {{ i }})">
+      <img class="image-circle" src="img/{{ site.data.FYEC[i].netid }}.jpg"
+           hspace="0" vspace="30" id="myImage" loading="lazy"
+           height="1200" width="1200">
       <h4> {{ site.data.FYEC[i].Name }} </h4>
       <i> {{ site.data.FYEC[i].Position }} </i>
-      <dialog class="dialog-person" id="chdialog-{{i}}">
+      <dialog class="dialog-person" id="fydialog-{{i}}">
         <form method="dialog" class="dialog-close">
           <button title="Close">
             x
@@ -175,7 +178,8 @@ nav: Council
         </form>
         <div class="dialog-frame">
           <div class="dialog-image">
-            <img height="1200" width="1200" src="img/{{ site.data.FYEC[i].netid }}.jpg" alt>
+            <img height="1200" width="1200"
+                 src="img/{{ site.data.FYEC[i].netid }}.jpg" alt>
           </div>
           <div class="dialog-body">
             <h4 class="dialog-title">
