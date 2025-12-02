@@ -164,7 +164,7 @@ nav: Council
 <h2>First Year Engineering Council</h2>
 <div class="grid grid-md-4">
   {% for i in (0..1) %}
-    <div class="person-hover" onclick="openDialog('ch', {{ i }})"><img class="image-circle" src="img/{{ site.data.FYEC[i].netid }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
+    <div class="person-hover" onclick="openDialog('fy', {{ i }})"><img class="image-circle" src="img/{{ site.data.FYEC[i].netid }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ site.data.FYEC[i].Name }} </h4>
       <i> {{ site.data.FYEC[i].Position }} </i>
       <dialog class="dialog-person" id="chdialog-{{i}}">
