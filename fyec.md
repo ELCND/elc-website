@@ -17,17 +17,16 @@ nav: Council
    the various fields within engineering and volunteer in the South Bend community. </p>
 <p><strong> Be on the lookout in your inbox for instructions on how to apply to be a part of FYEC!</strong></p>
 
-<h2>Members</h2>
+<h2>Leadershi[</h2>
 <div class="grid grid-md-2">
-  {% for i in (0..8) %}
-    <div><img src="img/{{ site.data.FYEC[i].netid }}.jpg" align="left" hspace="20" vspace="30" id="myImage" loading="lazy">
+  {% for i in (0..3) %}
       <h4> {{ site.data.FYEC[i].Name }} </h4>
       <i> {{ site.data.FYEC[i].Position }} </i>
       <p>{{ site.data.FYEC[i].netid }}@nd.edu</p>
       <div><p>{{ site.data.FYEC[i].Bio }}</p></div>
     </div>
    {% endfor %}
-</div>
+<!--</div>
 <h4>FYEC Members Not Pictured</h4>
 <table>
   <thead>
@@ -45,3 +44,4 @@ nav: Council
     {% endfor %}
   </tbody>
 </table>
+-->
