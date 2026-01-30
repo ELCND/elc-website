@@ -17,7 +17,7 @@ nav: Council
    the various fields within engineering and volunteer in the South Bend community. </p>
 <p><strong> Be on the lookout in your inbox for instructions on how to apply to be a part of FYEC!</strong></p>
 
-<h2>Leadershi[</h2>
+<h2>Leadership</h2>
 <div class="grid grid-md-2">
   {% for i in (0..3) %}
       <h4> {{ site.data.FYEC[i].Name }} </h4>
