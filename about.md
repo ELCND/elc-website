@@ -5,8 +5,7 @@ subpage1: About
 subpage1url: about.html
 subpage2: Members
 subpage2url: bios.html
-subpage3: FYEC
-subpage3url: fyec.html
+
 nav: Council
 ---
 <p class="lede">The Engineering Leadership Council of Notre Dame exists as a student government
