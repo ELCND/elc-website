@@ -14,4 +14,4 @@ the Dean’s Office. ELC members are provided with excellent leadership developm
 opportunities while serving the student body with professional development
 and community outreach.</p>
 
-<p>If you are interested in supporting our initatives, please contact the 2025/2026 Co-Presidents, Kate Drab (kdrab@nd.edu) and Carmen Noe (cnoe@nd.edu). </p>
+<p>If you are interested in supporting our initatives, please contact the 2026/2027 Co-Presidents, Samuel Thornton (sthornt3@nd.edu) and Joseph Collins (jcolli28@nd.edu). </p>
