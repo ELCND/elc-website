@@ -57,7 +57,7 @@ nav: Council
 <h2>Senior Directors</h2>
 <div class="grid grid-md-4">
   {% for m in site.data.Director %}
-    <div class="person-hover" onclick="openDialog('sd', {{ i }})"><img class="image-circle" src="img/{{ m.netid | split }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
+    <div class="person-hover" onclick="openDialog('sd', {{ i }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ m.Name }} </h4>
       <i> {{ m.Position }} </i>
       <dialog class="dialog-person" id="sddialog-{{i}}">
@@ -68,7 +68,7 @@ nav: Council
         </form>
         <div class="dialog-frame">
           <div class="dialog-image">
-            <img height = "1200" width="1200" src="img/{{ m.netid | split }}.jpg" alt>
+            <img height = "1200" width="1200" src="img/{{ m.netid | strip }}.jpg" alt>
           </div>
           <div class="dialog-body">
             <h4 class="dialog-title">
@@ -92,7 +92,7 @@ nav: Council
 <h2>Junior Directors</h2>
 <div class="grid grid-md-4">
   {% for m in site.data.jrDirector %}
-    <div class="person-hover" onclick="openDialog('jd', {{ i }})"><img class="image-circle" src="img/{{ m.netid | split }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
+    <div class="person-hover" onclick="openDialog('jd', {{ i }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ m.Name }} </h4>
       <i> {{ m.Position }} </i>
       <dialog class="dialog-person" id="jddialog-{{i}}">
@@ -103,7 +103,7 @@ nav: Council
         </form>
         <div class="dialog-frame">
           <div class="dialog-image">
-            <img height = "1200" width="1200" src="img/{{ m.netid | split }}.jpg" alt>
+            <img height = "1200" width="1200" src="img/{{ strip | split }}.jpg" alt>
           </div>
           <div class="dialog-body">
             <h4 class="dialog-title">
@@ -127,7 +127,7 @@ nav: Council
 <h2>Chairs</h2>
 <div class="grid grid-md-4">
   {% for m in site.data.Chair %}
-    <div class="person-hover" onclick="openDialog('ch', {{ i }})"><img class="image-circle" src="img/{{ m.netid | split }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
+    <div class="person-hover" onclick="openDialog('ch', {{ i }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ m.Name }} </h4>
       <i> {{ m.Position }} </i>
       <dialog class="dialog-person" id="chdialog-{{i}}">
@@ -138,7 +138,7 @@ nav: Council
         </form>
         <div class="dialog-frame">
           <div class="dialog-image">
-            <img height="1200" width="1200" src="img/{{ m.netid | split }}.jpg" alt>
+            <img height="1200" width="1200" src="img/{{ m.netid | strip }}.jpg" alt>
           </div>
           <div class="dialog-body">
             <h4 class="dialog-title">
@@ -163,7 +163,7 @@ nav: Council
 <div class="grid grid-md-4">
   {% for m in site.data.FYEC %}
     <div class="person-hover" onclick="openDialog('fy', {{ i }})">
-      <img class="image-circle" src="img/{{ m.netid | split }}.jpg"
+      <img class="image-circle" src="img/{{ m.netid | strip }}.jpg"
            hspace="0" vspace="30" id="myImage" loading="lazy"
            height="1200" width="1200">
       <h4> {{ m.Name }} </h4>
@@ -177,7 +177,7 @@ nav: Council
         <div class="dialog-frame">
           <div class="dialog-image">
             <img height="1200" width="1200"
-                 src="img/{{ m.netid | split }}.jpg" alt>
+                 src="img/{{ m.netid | strip }}.jpg" alt>
           </div>
           <div class="dialog-body">
             <h4 class="dialog-title">
