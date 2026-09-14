@@ -23,7 +23,7 @@ nav: Council
   {% for m in site.data.Executive %}
     <div class="person-hover" onclick="openDialog('ex', {{ i }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="20" id="myImage" loading="lazy">
       <h4> {{ m.Name }} </h4>
-      <i> {{ site.data.Executive[i].Position }} </i>
+      <i> {{ m.Position }} </i>
       <dialog class="dialog-person" id="exdialog-{{i}}">
         <link rel="horizontal-xs" href="./stylesheets/site.css">
         <form method="dialog" class="dialog-close">
@@ -33,19 +33,19 @@ nav: Council
         </form>
         <div class="dialog-frame">
           <div class="dialog-image">
-            <img height = "1200" width="1200" src="img/{{ site.data.Executive[i].netid }}.jpg" alt>
+            <img height = "1200" width="1200" src="img/{{ m.netid | strip }}.jpg" alt>
           </div>
           <div class="dialog-body">
             <h4 class="dialog-title">
-              {{ site.data.Executive[i].Name }}
+              {{ m.Name }}
             </h4>
             <p class="dialog-desc">
-              <em>{{ site.data.Executive[i].Position }}</em>
+              <em>{{ m.Position }}</em>
             </p>
             <p class="dialog-content">
-              {{ site.data.Executive[i].Email }}
+              {{ m.Email }}
               <br>
-              {{ site.data.Executive[i].Bio }}
+              {{ m.Bio }}
             </p>
           </div>
         </div>
