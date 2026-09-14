@@ -21,10 +21,10 @@ nav: Council
 
 <div class="grid grid-md-4">
   {% for m in site.data.Executive %}
-    <div class="person-hover" onclick="openDialog('ex', {{ i }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="20" id="myImage" loading="lazy">
+    <div class="person-hover" onclick="openDialog('ex', {{ forloop.index0 }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="20" id="myImage" loading="lazy">
       <h4> {{ m.Name }} </h4>
       <i> {{ m.Position }} </i>
-      <dialog class="dialog-person" id="exdialog-{{i}}">
+      <dialog class="dialog-person" id="exdialog-{{forloop.index0}}">
         <link rel="horizontal-xs" href="./stylesheets/site.css">
         <form method="dialog" class="dialog-close">
           <button title="Close">
@@ -57,10 +57,10 @@ nav: Council
 <h2>Senior Directors</h2>
 <div class="grid grid-md-4">
   {% for m in site.data.Director %}
-    <div class="person-hover" onclick="openDialog('sd', {{ i }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
+    <div class="person-hover" onclick="openDialog('sd', {{ forloop.index0 }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ m.Name }} </h4>
       <i> {{ m.Position }} </i>
-      <dialog class="dialog-person" id="sddialog-{{i}}">
+      <dialog class="dialog-person" id="sddialog-{{forloop.index0}}">
         <form method="dialog" class="dialog-close">
           <button title="Close">
             x
@@ -92,10 +92,10 @@ nav: Council
 <h2>Junior Directors</h2>
 <div class="grid grid-md-4">
   {% for m in site.data.jrDirector %}
-    <div class="person-hover" onclick="openDialog('jd', {{ i }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
+    <div class="person-hover" onclick="openDialog('jd', {{ forloop.index0 }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ m.Name }} </h4>
       <i> {{ m.Position }} </i>
-      <dialog class="dialog-person" id="jddialog-{{i}}">
+      <dialog class="dialog-person" id="jddialog-{{forloop.index0}}">
         <form method="dialog" class="dialog-close">
           <button title="Close">
             x
@@ -127,10 +127,10 @@ nav: Council
 <h2>Chairs</h2>
 <div class="grid grid-md-4">
   {% for m in site.data.Chair %}
-    <div class="person-hover" onclick="openDialog('ch', {{ i }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
+    <div class="person-hover" onclick="openDialog('ch', {{ forloop.index0 }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ m.Name }} </h4>
       <i> {{ m.Position }} </i>
-      <dialog class="dialog-person" id="chdialog-{{i}}">
+      <dialog class="dialog-person" id="chdialog-{{forloop.index0}}">
         <form method="dialog" class="dialog-close">
           <button title="Close">
             x
@@ -162,13 +162,13 @@ nav: Council
 <h2>First Year Engineering Council</h2>
 <div class="grid grid-md-4">
   {% for m in site.data.FYEC %}
-    <div class="person-hover" onclick="openDialog('fy', {{ i }})">
+    <div class="person-hover" onclick="openDialog('fy', {{ forloop.index0 }})">
       <img class="image-circle" src="img/{{ m.netid | strip }}.jpg"
            hspace="0" vspace="30" id="myImage" loading="lazy"
            height="1200" width="1200">
       <h4> {{ m.Name }} </h4>
       <i> {{ m.Position }} </i>
-      <dialog class="dialog-person" id="fydialog-{{i}}">
+      <dialog class="dialog-person" id="fydialog-{{forloop.index0}}">
         <form method="dialog" class="dialog-close">
           <button title="Close">
             x
