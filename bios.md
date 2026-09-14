@@ -51,7 +51,7 @@ nav: Council
         </div>
       </dialog>
     </div>
-   {% endfor %}
+   {% endif %}{% endfor %}
 </div>
 
 <h2>Senior Directors</h2>
@@ -86,7 +86,7 @@ nav: Council
         </div>
       </dialog>
     </div>
-   {% endfor %}
+   {% endif %}{% endfor %}
 </div>
 
 <h2>Junior Directors</h2>
@@ -121,7 +121,7 @@ nav: Council
         </div>
       </dialog>
     </div>
-   {% endfor %}
+   {% endif %}{% endfor %}
 </div>
 
 <h2>Chairs</h2>
@@ -156,7 +156,7 @@ nav: Council
         </div>
       </dialog>
     </div>
-   {% endfor %}
+   {% endif %}{% endfor %}
 </div>
 
 <h2>First Year Engineering Council</h2>
@@ -195,7 +195,7 @@ nav: Council
         </div>
       </dialog>
     </div>
-   {% endfor %}
+   {% endif %}{% endfor %}
 </div>
 
 <script>
