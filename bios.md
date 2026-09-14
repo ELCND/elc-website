@@ -20,7 +20,7 @@ nav: Council
 
 
 <div class="grid grid-md-4">
-  {% for m in site.data.Executive %}
+  {% for m in site.data.Executive %}{% if m.Name %}
     <div class="person-hover" onclick="openDialog('ex', {{ forloop.index0 }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="20" id="myImage" loading="lazy">
       <h4> {{ m.Name }} </h4>
       <i> {{ m.Position }} </i>
@@ -56,7 +56,7 @@ nav: Council
 
 <h2>Senior Directors</h2>
 <div class="grid grid-md-4">
-  {% for m in site.data.Director %}
+  {% for m in site.data.Director %}{% if m.Name %}
     <div class="person-hover" onclick="openDialog('sd', {{ forloop.index0 }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ m.Name }} </h4>
       <i> {{ m.Position }} </i>
@@ -91,7 +91,7 @@ nav: Council
 
 <h2>Junior Directors</h2>
 <div class="grid grid-md-4">
-  {% for m in site.data.jrDirector %}
+  {% for m in site.data.jrDirector %}{% if m.Name %}
     <div class="person-hover" onclick="openDialog('jd', {{ forloop.index0 }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ m.Name }} </h4>
       <i> {{ m.Position }} </i>
@@ -126,7 +126,7 @@ nav: Council
 
 <h2>Chairs</h2>
 <div class="grid grid-md-4">
-  {% for m in site.data.Chair %}
+  {% for m in site.data.Chair %}{% if m.Name %}
     <div class="person-hover" onclick="openDialog('ch', {{ forloop.index0 }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ m.Name }} </h4>
       <i> {{ m.Position }} </i>
@@ -161,7 +161,7 @@ nav: Council
 
 <h2>First Year Engineering Council</h2>
 <div class="grid grid-md-4">
-  {% for m in site.data.FYEC %}
+  {% for m in site.data.FYEC %}{% if m.Name %}
     <div class="person-hover" onclick="openDialog('fy', {{ forloop.index0 }})">
       <img class="image-circle" src="img/{{ m.netid | strip }}.jpg"
            hspace="0" vspace="30" id="myImage" loading="lazy"
