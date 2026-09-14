@@ -56,10 +56,10 @@ nav: Council
 
 <h2>Senior Directors</h2>
 <div class="grid grid-md-4">
-  {% for i in (0..8) %}
-    <div class="person-hover" onclick="openDialog('sd', {{ i }})"><img class="image-circle" src="img/{{ site.data.Director[i].netid }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
-      <h4> {{ site.data.Director[i].Name }} </h4>
-      <i> {{ site.data.Director[i].Position }} </i>
+  {% for m in site.data.Director %}
+    <div class="person-hover" onclick="openDialog('sd', {{ i }})"><img class="image-circle" src="img/{{ m.netid | split }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
+      <h4> {{ m.Name }} </h4>
+      <i> {{ m.Position }} </i>
       <dialog class="dialog-person" id="sddialog-{{i}}">
         <form method="dialog" class="dialog-close">
           <button title="Close">
@@ -68,19 +68,19 @@ nav: Council
         </form>
         <div class="dialog-frame">
           <div class="dialog-image">
-            <img height = "1200" width="1200" src="img/{{ site.data.Director[i].netid }}.jpg" alt>
+            <img height = "1200" width="1200" src="img/{{ m.netid | split }}.jpg" alt>
           </div>
           <div class="dialog-body">
             <h4 class="dialog-title">
-              {{ site.data.Director[i].Name }}
+              {{ m.Name }}
             </h4>
             <p class="dialog-desc">
-              <em>{{ site.data.Director[i].Position }}</em>
+              <em>{{ m.Position }}</em>
             </p>
             <p class="dialog-content">
-              {{ site.data.Director[i].Email }}
+              {{ m.Email }}
               <br>
-              {{ site.data.Director[i].Bio }}
+              {{ m.Bio }}
             </p>
           </div>
         </div>
@@ -91,10 +91,10 @@ nav: Council
 
 <h2>Junior Directors</h2>
 <div class="grid grid-md-4">
-  {% for i in (0..4) %}
-    <div class="person-hover" onclick="openDialog('jd', {{ i }})"><img class="image-circle" src="img/{{ site.data.jrDirector[i].netid }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
-      <h4> {{ site.data.jrDirector[i].Name }} </h4>
-      <i> {{ site.data.jrDirector[i].Position }} </i>
+  {% for m in site.data.jrDirector %}
+    <div class="person-hover" onclick="openDialog('jd', {{ i }})"><img class="image-circle" src="img/{{ m.netid | split }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
+      <h4> {{ m.Name }} </h4>
+      <i> {{ m.Position }} </i>
       <dialog class="dialog-person" id="jddialog-{{i}}">
         <form method="dialog" class="dialog-close">
           <button title="Close">
@@ -103,19 +103,19 @@ nav: Council
         </form>
         <div class="dialog-frame">
           <div class="dialog-image">
-            <img height = "1200" width="1200" src="img/{{ site.data.jrDirector[i].netid }}.jpg" alt>
+            <img height = "1200" width="1200" src="img/{{ m.netid | split }}.jpg" alt>
           </div>
           <div class="dialog-body">
             <h4 class="dialog-title">
-              {{ site.data.jrDirector[i].Name }}
+              {{ m.Name }}
             </h4>
             <p class="dialog-desc">
-              <em>{{ site.data.jrDirector[i].Position }}</em>
+              <em>{{ m.Position }}</em>
             </p>
             <p class="dialog-content">
-              {{ site.data.jrDirector[i].Email }}
+              {{ m.Email }}
               <br>
-              {{ site.data.jrDirector[i].Bio }}
+              {{ m.Bio }}
             </p>
           </div>
         </div>
@@ -126,10 +126,10 @@ nav: Council
 
 <h2>Chairs</h2>
 <div class="grid grid-md-4">
-  {% for i in (0..5) %}
-    <div class="person-hover" onclick="openDialog('ch', {{ i }})"><img class="image-circle" src="img/{{ site.data.Chair[i].netid }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
-      <h4> {{ site.data.Chair[i].Name }} </h4>
-      <i> {{ site.data.Chair[i].Position }} </i>
+  {% for m in site.data.Chair %}
+    <div class="person-hover" onclick="openDialog('ch', {{ i }})"><img class="image-circle" src="img/{{ m.netid | split }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
+      <h4> {{ m.Name }} </h4>
+      <i> {{ m.Position }} </i>
       <dialog class="dialog-person" id="chdialog-{{i}}">
         <form method="dialog" class="dialog-close">
           <button title="Close">
@@ -138,19 +138,19 @@ nav: Council
         </form>
         <div class="dialog-frame">
           <div class="dialog-image">
-            <img height="1200" width="1200" src="img/{{ site.data.Chair[i].netid }}.jpg" alt>
+            <img height="1200" width="1200" src="img/{{ m.netid | split }}.jpg" alt>
           </div>
           <div class="dialog-body">
             <h4 class="dialog-title">
-              {{ site.data.Chair[i].Name }}
+              {{ m.Name }}
             </h4>
             <p class="dialog-desc">
-              <em>{{ site.data.Chair[i].Position }}</em>
+              <em>{{ m.Position }}</em>
             </p>
             <p class="dialog-content">
-              {{ site.data.Chair[i].Email }}
+              {{ m.Email }}
               <br>
-              {{ site.data.Chair[i].Bio }}
+              {{ m.Bio }}
             </p>
           </div>
         </div>
@@ -161,13 +161,13 @@ nav: Council
 
 <h2>First Year Engineering Council</h2>
 <div class="grid grid-md-4">
-  {% for i in (0..3) %}
+  {% for m in site.data.FYEC %}
     <div class="person-hover" onclick="openDialog('fy', {{ i }})">
-      <img class="image-circle" src="img/{{ site.data.FYEC[i].netid }}.jpg"
+      <img class="image-circle" src="img/{{ m.netid | split }}.jpg"
            hspace="0" vspace="30" id="myImage" loading="lazy"
            height="1200" width="1200">
-      <h4> {{ site.data.FYEC[i].Name }} </h4>
-      <i> {{ site.data.FYEC[i].Position }} </i>
+      <h4> {{ m.Name }} </h4>
+      <i> {{ m.Position }} </i>
       <dialog class="dialog-person" id="fydialog-{{i}}">
         <form method="dialog" class="dialog-close">
           <button title="Close">
@@ -177,19 +177,19 @@ nav: Council
         <div class="dialog-frame">
           <div class="dialog-image">
             <img height="1200" width="1200"
-                 src="img/{{ site.data.FYEC[i].netid }}.jpg" alt>
+                 src="img/{{ m.netid | split }}.jpg" alt>
           </div>
           <div class="dialog-body">
             <h4 class="dialog-title">
-              {{ site.data.FYEC[i].Name }}
+              {{ m.Name }}
             </h4>
             <p class="dialog-desc">
-              <em>{{ site.data.FYEC[i].Position }}</em>
+              <em>{{ m.Position }}</em>
             </p>
             <p class="dialog-content">
-              {{ site.data.FYEC[i].Email }}
+              {{ m.Email }}
               <br>
-              {{ site.data.FYEC[i].Bio }}
+              {{ m.Bio }}
             </p>
           </div>
         </div>
