@@ -103,7 +103,7 @@ nav: Council
         </form>
         <div class="dialog-frame">
           <div class="dialog-image">
-            <img height = "1200" width="1200" src="img/{{ strip | split }}.jpg" alt>
+            <img height = "1200" width="1200" src="img/{{ m.netid | strip }}.jpg" alt>
           </div>
           <div class="dialog-body">
             <h4 class="dialog-title">
