@@ -54,13 +54,13 @@ nav: Council
    {% endif %}{% endfor %}
 </div>
 
-<h2>Senior Directors</h2>
+<h2>Committee Heads</h2>
 <div class="grid grid-md-4">
-  {% for m in site.data.Director %}{% if m.Name %}
-    <div class="person-hover" onclick="openDialog('sd', {{ forloop.index0 }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
+  {% for m in site.data.srDirector %}{% if m.Name %}
+    <div class="person-hover" onclick="openDialog('sr', {{ forloop.index0 }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ m.Name }} </h4>
       <i> {{ m.Position }} </i>
-      <dialog class="dialog-person" id="sddialog-{{forloop.index0}}">
+      <dialog class="dialog-person" id="srdialog-{{forloop.index0}}">
         <form method="dialog" class="dialog-close">
           <button title="Close">
             x
@@ -89,13 +89,13 @@ nav: Council
    {% endif %}{% endfor %}
 </div>
 
-<h2>Junior Directors</h2>
+<h2>Directors</h2>
 <div class="grid grid-md-4">
-  {% for m in site.data.jrDirector %}{% if m.Name %}
-    <div class="person-hover" onclick="openDialog('jd', {{ forloop.index0 }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
+  {% for m in site.data.Director %}{% if m.Name %}
+    <div class="person-hover" onclick="openDialog('sd', {{ forloop.index0 }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
       <h4> {{ m.Name }} </h4>
       <i> {{ m.Position }} </i>
-      <dialog class="dialog-person" id="jddialog-{{forloop.index0}}">
+      <dialog class="dialog-person" id="sddialog-{{forloop.index0}}">
         <form method="dialog" class="dialog-close">
           <button title="Close">
             x
@@ -131,6 +131,41 @@ nav: Council
       <h4> {{ m.Name }} </h4>
       <i> {{ m.Position }} </i>
       <dialog class="dialog-person" id="chdialog-{{forloop.index0}}">
+        <form method="dialog" class="dialog-close">
+          <button title="Close">
+            x
+          </button>
+        </form>
+        <div class="dialog-frame">
+          <div class="dialog-image">
+            <img height="1200" width="1200" src="img/{{ m.netid | strip }}.jpg" alt>
+          </div>
+          <div class="dialog-body">
+            <h4 class="dialog-title">
+              {{ m.Name }}
+            </h4>
+            <p class="dialog-desc">
+              <em>{{ m.Position }}</em>
+            </p>
+            <p class="dialog-content">
+              {{ m.Email }}
+              <br>
+              {{ m.Bio }}
+            </p>
+          </div>
+        </div>
+      </dialog>
+    </div>
+   {% endif %}{% endfor %}
+</div>
+
+<h2>Committee Members</h2>
+<div class="grid grid-md-4">
+  {% for m in site.data.Member %}{% if m.Name %}
+    <div class="person-hover" onclick="openDialog('mb', {{ forloop.index0 }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="30" id="myImage" loading="lazy" height="1200" width="1200">
+      <h4> {{ m.Name }} </h4>
+      <i> {{ m.Position }} </i>
+      <dialog class="dialog-person" id="mbdialog-{{forloop.index0}}">
         <form method="dialog" class="dialog-close">
           <button title="Close">
             x
