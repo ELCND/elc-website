@@ -1,3 +1,15 @@
+/* Bio dialogs: ndt.css sets overflow:visible on .dialog-person and its frame,
+   which cancels the max-height:90vh guard. The box grows past the viewport and
+   translateY(-50%) pushes the top half — close button included — above y=0. */
+.dialog-person .dialog-frame {
+  max-height: 85vh;
+  overflow-y: auto;
+}
+.dialog-person .dialog-image img {
+  max-height: 85vh;
+  object-fit: cover;
+}
+
 /* Site-specific styles
    Launched:
    Author:
