@@ -19,10 +19,11 @@ nav: Resources
       <h3>Fall Schedule</h3>
       <ol>
         <li>Writing and Rhetoric or University Seminar</li>
+        <li>Moreau First-Year Seminar</li>
         <li>MATH 10550</li>
         <li>CHEM 10171</li>
         <li>Core Course</li>
-        <li>EG 10114 and 10115 or 10116</li>
+        <li>EG 10117</li>
       </ol>
     </div>
     <div>
@@ -30,9 +31,9 @@ nav: Resources
       <ol>
         <li>Writing and Rhetoric or University Seminar</li>
         <li>MATH 10560</li>
-        <li>CHEM 10122 or Tech Elective</li>
+        <li>MATH 10560 or Tech Elective</li>
         <li>PHYS 10310</li>
-        <li>EG 10116 and/or EG Projects Course </li>
+        <li>EG 10118 or Major Requirement</li>
       </ol>
     </div>
   </div>
