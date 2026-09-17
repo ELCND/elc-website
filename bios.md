@@ -18,7 +18,7 @@ nav: Council
 }
 </style>
 
-<h2>Executive</h2>
+<h2>Executives</h2>
 <div class="grid grid-md-4">
   {% for m in site.data.Executive %}{% if m.Name %}
     <div class="person-hover" onclick="openDialog('ex', {{ forloop.index0 }})"><img class="image-circle" src="img/{{ m.netid | strip }}.jpg" hspace="0" vspace="20" id="myImage" loading="lazy">
