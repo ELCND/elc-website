@@ -18,21 +18,21 @@ nav: Resources
     <div>
       <h3>Fall Schedule</h3>
       <ol>
-        <li>Writing and Rhetoric or University Seminar</li>
-        <li>MATH 10550</li>
-        <li>CHEM 10171</li>
-        <li>Core Course</li>
-        <li>EG 10114 and 10115 or 10116</li>
+        <li>WR 13100: Writing and Rhetoric or USEM: University Seminar</li>
+        <li>FYS 10101: Moreau First-Year Seminar</li>
+        <li>MATH 10550: Calculus I</li>
+        <li>CHEM 10171: Intro to Chemical Principles</li>
+        <li>EG 10117: Engineering Design</li>
       </ol>
     </div>
     <div>
       <h3>Spring Schedule</h3>
       <ol>
-        <li>Writing and Rhetoric or University Seminar</li>
-        <li>MATH 10560</li>
-        <li>CHEM 10122 or Tech Elective</li>
-        <li>PHYS 10310</li>
-        <li>EG 10116 and/or EG Projects Course </li>
+        <li>WR 13100: Writing and Rhetoric or USEM: University Seminar</li>
+        <li>WK: Core Requirement</li>
+        <li>MATH 10560: Calculus II or Tech Elective</li>
+        <li>PHYS 10310: Physics I</li>
+        <li>EG 10118: Engineering Computing or Major Requirement</li>
       </ol>
     </div>
   </div>
