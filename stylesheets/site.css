@@ -23,18 +23,17 @@
 }
 
 
-
 #myImage {
   width: 80%;
-  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 30%;
   left: 0;
   right: 0;
   margin: auto;
   display: block;
   padding-top: 10px;
 }
-
-
 
 @media only screen {
   .site-title a { height:1.325em; text-indent:-9999px; overflow:hidden; background:url(images/logo.png) left center / contain no-repeat; }

@@ -195,8 +195,10 @@ nav: Council
 </div>
 
 <h2>First Year Engineering Council</h2>
+{% assign fyec_shown = 0 %}
 <div class="grid grid-md-4">
   {% for m in site.data.FYEC %}{% if m.Name %}
+    {% assign fyec_shown = fyec_shown | plus: 1 %}
     <div class="person-hover" onclick="openDialog('fy', {{ forloop.index0 }})">
       <img class="image-circle" src="img/{{ m.netid | strip }}.jpg"
            hspace="0" vspace="30" id="myImage" loading="lazy"
@@ -232,6 +234,9 @@ nav: Council
     </div>
    {% endif %}{% endfor %}
 </div>
+{% if fyec_shown == 0 %}
+  <p class="pending-note">This year's First Year Engineering Council is still being formed — check back soon for member bios!</p>
+{% endif %}
 
 <script>
 function openDialog(level, index) { 
