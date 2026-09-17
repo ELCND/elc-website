@@ -22,7 +22,6 @@ nav: Resources
         <li>Moreau First-Year Seminar</li>
         <li>MATH 10550</li>
         <li>CHEM 10171</li>
-        <li>Core Course</li>
         <li>EG 10117</li>
       </ol>
     </div>
