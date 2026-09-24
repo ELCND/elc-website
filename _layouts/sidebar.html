@@ -65,7 +65,7 @@
               <li><a href="home.html" aria-label="Home"><svg class="icon" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-home"></use></svg></a></li>
               <li><a href="about.html" {% if page.url == '/about.html' or page.url == '/bios.html' or page.url == '/fyec.html'%} class="active" {% endif %}>Council</a></li>
               <li><a href="career_center.html"{% if page.url == '/career_center.html' or page.url == '/handshake.html' or page.url == '/career_contacts.html'%} class="active" {% endif %}>Career</a></li>
-              <li><a href="calendar.html"{% if page.url == '/calendar.html' or page.url == '/eid.html' or page.url == '/eweek.html'%} class="active" {% endif %}>Events</a></li>
+              <li><a href="calendar.html"{% if page.url == '/calendar.html' or page.url == '/student-breakfast.html' or page.url == '/eweek.html'%} class="active" {% endif %}>Events</a></li>
               <li><a href="first_year.html"{% if page.url == '/first_year.html' or page.url == '/clubs.html' or page.url == '/fyec_newsletter.html'%} class="active"  {% endif %}>Resources</a></li>
               <li><a href="sponsor_contact.html"{% if page.url == '/sponsor_contact.html' or page.url == '/eweek_sponsor.html' %} class="active" {% endif %}>Sponsorship</a></li>
               <li class="nav-search"><button class="btn-search search-toggle" aria-label="Toggle search"><svg class="icon" width="16" height="16"><use xlink:href="#icon-search"></use></svg></button></li>
@@ -139,7 +139,7 @@
             <li><a href="calendar.html">Events</a>
               <ul class="depth_2">
                 <li><a href="calendar.html">Calendar</a></li>
-                <li><a href="eid.html">EID</a></li>
+                <li><a href="student-breakfast.html">Engineering Student Breakfast</a></li>
                 <li><a href="eweek.html">E-Week</a></li>
               </ul>
             </li>
@@ -163,7 +163,7 @@
             <li {% if page.url == '/{{page.subpage1url}}' or page.url == '/{{ page.subpage2url }}' or page.url == '/{{ page.subpage3url }}' or page.url == '/{{ page.subpage4url }}' %} class="active" {% endif %}><a href="{{page.subpage1url}}">{{page.nav}}</a></li>
             <ul class="nav-level-2 depth_3">
               <li {% if page.url == '/about.html' or page.url == '/career_center.html' or page.url == '/calendar.html' or page.url == '/first_year.html' or page.url == '/sponsor_contact.html'%} class="active" {% endif %}><a href="{{page.subpage1url}}">{{page.subpage1}}</a></li>
-              <li {% if page.url  == '/bios.html' or page.url == '/handshake.html' or page.url == '/eid.html' or page.url == '/clubs.html'%} class="active"{% endif %}><a href="{{page.subpage2url}}">{{page.subpage2}}</a></li>
+              <li {% if page.url  == '/bios.html' or page.url == '/handshake.html' or page.url == '/student-breakfast.html' or page.url == '/clubs.html'%} class="active"{% endif %}><a href="{{page.subpage2url}}">{{page.subpage2}}</a></li>
               <li {% if page.url  == '/fyec.html' or page.url == '/career_contacts.html' or page.url == '/eweek.html' or page.url  == '/fyec_newsletter.html'%} class="active"{% endif %}><a href="{{page.subpage3url}}">{{page.subpage3}}</a></li>
               <!-- <li {% if page.url  == '/fyec_newsletter.html'%} class="active"{% endif %}><a href="{{page.subpage4url}}">{{page.subpage4}}</a></li> -->
             </ul>
