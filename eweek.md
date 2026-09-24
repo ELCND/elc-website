@@ -3,8 +3,8 @@ layout: sidebar
 title: E-Week (Engineer's Week)
 subpage1: Calendar
 subpage1url: calendar.html
-subpage2: EID
-subpage2url: eid.html
+subpage2: Engineering Student Breakfast
+subpage2url: student-breakfast.html
 subpage3: E-Week
 subpage3url: eweek.html
 subpage4: FYEC Newsletter
