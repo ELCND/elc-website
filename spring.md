@@ -3,8 +3,8 @@ layout: sidebar
 title: Spring into Engineering
 subpage1: Calendar
 subpage1url: calendar.html
-subpage2: EID
-subpage2url: eid.html
+subpage2: Engineering Student Breakfast
+subpage2url: student-breakfast.html
 subpage3: Spring into Engineering
 subpage3url: spring.html
 subpage4: E-Week
