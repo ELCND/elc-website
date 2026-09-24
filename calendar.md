@@ -3,7 +3,7 @@ layout: sidebar
 title: Calendar
 subpage1: Calendar
 subpage1url: calendar.html
-subpage2: Student Breakfast
+subpage2: Engineering Student Breakfast
 subpage2url: student-breakfast.html
 subpage3: E-Week
 subpage3url: eweek.html
