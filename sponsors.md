@@ -1,8 +1,8 @@
 ---
 layout: sidebar
 title: Sponsorship
-subpage1: EID
-subpage1url: eid.html
+subpage1: Engineering Student Breakfast
+subpage1url: student-breakfast.html
 subpage2: Career Center
 subpage2url: career_center.html
 subpage3: Sponsorship
