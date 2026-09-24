@@ -3,7 +3,7 @@ layout: sidebar
 title: Engineering Student Leaders Breakfast
 subpage1: Calendar
 subpage1url: calendar.html
-subpage2: EID
+subpage2: Engineering Student Breakfast
 subpage2url: student-breakfast.html
 subpage3: E-Week
 subpage3url: eweek.html
