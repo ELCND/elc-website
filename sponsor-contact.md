@@ -6,8 +6,8 @@ subpage1url: sponsor_contact.html
 url: career_center
 nav: Sponsorship
 ---
-<h1>2025-2026 Sponsors</h1>
-<p> We are proud to announce the following sponsors </p>
+<h1>2026-2027 Sponsors</h1>
+<p>We are still finalizing sponsors for the 2026-2027 academic year. Please see the section below regarding prospective sponsorship opportunities and related events.</p>
 <!--<div><img src="img/sponsorship25.jpg" loading="lazy"></div>-->
 
 <h2>Sponsorship and Events</h2>
